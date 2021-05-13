@@ -430,8 +430,8 @@ header {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-bottom: 2em;
   margin: 0 20em;
+  margin-bottom: 2em;
 }
 
 .portfolio__item {
@@ -452,6 +452,13 @@ header {
 .portfolio__item:focus .portfolio__img {
   transform: scale(1.1);
   opacity: 0.75;
+}
+
+@media (max-width: 600px) {
+  .portfolio {
+    margin: 0 0;
+    margin-bottom: 2em;
+  }
 }
 
 /* footer */
