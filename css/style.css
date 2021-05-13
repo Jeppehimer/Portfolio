@@ -430,7 +430,9 @@ header {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin: 0 20em;
+  max-width: 60em;
+  margin: 0 auto;
+  /* margin: 0 15em; */
   margin-bottom: 2em;
 }
 
@@ -454,12 +456,12 @@ header {
   opacity: 0.75;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 800px) {
   .portfolio {
-    margin: 0 0;
+    margin: 0 auto;
     margin-bottom: 2em;
   }
-}
+} */
 
 /* footer */
 
