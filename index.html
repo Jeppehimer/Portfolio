@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Developer JEppehimer Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+
+        <!-- Update with custom fonts later -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="#home"><img src="img/JarredLogo.png" alt=""></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Jarred Eppehimer</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end developer</p>
+            <img src="img/dev-jarred-01-zoom.jpg" alt="a picture of Jarred Eppehimer smiling" class="intro__img">
+        </section>
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <h3 class="section__subtitle section__subtitle--services">Bringing your vision to life in the browser</h3>
+            <div class="services">
+                <div class="service">
+                    <h3>Design & Development</h3>
+                    <ul class="service__list">
+                        <li class="service__list--item">Custom landing pages</li>
+                        <li class="service__list--item">Responsive, mobile-friendly websites</li>
+                        <li class="service__list--item">User Interfaces</li>
+                        <li class="service__list--item">Fit-for-purpose web applications</li>
+                    </ul>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Languages</h3>
+                    <ul class="service__list">
+                        <li class="service__list--item">Javascript (ES6)</li>
+                        <li class="service__list--item">HTML/CSS</li>
+                        <li class="service__list--item">React</li>
+                        <li class="service__list--item">Bootstrap</li>
+                    </ul>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Dev Tools</h3>
+                    <ul class="service__list">
+                        <li class="service__list--item">GitHub</li>
+                    </ul>
+                </div> <!-- / service -->
+           
+            </div> <!-- / services --> 
+
+            <a href="#work" class="btn">see my work</a>
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Designer & developer based out of Tulsa, OK</p>
+
+            <div class="about-me__body">
+                <p>I am a former geophysicist pursuing my passion for programming and web development.</p>
+                <p>I earned my BS and MS in Geophysics from the Colorado School of Mines, where I discovered my interest in coding. Since graduating and working in the petroleum industry for four years, I have developed a strong skillset for:
+                    <ul class="about-me__list">
+                        <li class="about-me__list--item">creating fit-for-purpose solutions to meet business goals</li>
+                        <li class="about-me__list--item">organizing and displaying data for the end-user</li>
+                        <li class="about-me__list--item">multi-disciplinary collaboration in a high-paced environment</li>
+                        <li class="about-me__list--item">rapid self-education and self-development</li>
+                    </ul> 
+                    The unlimited freedom in web design & development provides the perfect landscape to showcase and further develop these skills. Follow along with my growth as I take on each new challenge in this fascinating field!
+                </p>
+            </div>
+
+            <img src="img/dev-jarred-02.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item-01.html" class="portfolio__item">
+                    <img src="img/stock-app.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item-02.html" class="portfolio__item">
+                    <img src="img/Xyla_site-mywork.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+
+            <p class="section__subtitle section__subtitle--work">Smaller/niche projects (click image to test on GitHub Pages):</p>
+            <div class="portfolio">
+                <!-- Portfolio small item 01 -->
+                <a href="https://jeppehimer.github.io/React_Bootstrap_Pomodoro_Clock/" target="_blank" class="portfolio__item">
+                    <img src="img/pomodoro-clock.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio small item 02 -->
+                <a href="https://jeppehimer.github.io/React_BootStrap_DrumMachine/" target="_blank" class="portfolio__item">
+                    <img src="img/drum-machine.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio small item 03 -->
+                <a href="https://jeppehimer.github.io/bootstrap_random_quote_generator/" target="_blank" class="portfolio__item">
+                    <img src="img/random-quote-generator.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:jeppehim@gmail.com" class="footer__link">jeppehim@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jarred-eppehimer/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Jeppehimer" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

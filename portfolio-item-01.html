@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Developer JEppehimer Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+
+        <!-- Update with custom fonts later -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/JarredLogo.png" alt=""></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home" style="padding-bottom: 0.5em;">
+            <h1 class="section__title section__title--intro">
+                Web App: <strong>Stock Price & News</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Built using React and API queries</p>
+            <img src="img/stock-app-searchbar3.png" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p></p>
+            <img src="img/stock-app-chart2.png" alt="">
+            <p>I created this app as an easy way to search for relevant news articles that may impact the price movement of a particular security. I still use this app almost daily!</p>
+            <p>The price data and news articles are sourced from TwelveData and GNews APIs, respectively. Data from each API query are stored in React state variables and passed into various display components in the app. The stock price chart utilizes a CanvasJS template.</p>
+            <p>Searchbar has built-in autocomplete search suggestions, and news article summaries link to the full article upon clicking.</p>
+            <p><a href="https://jeppehimer.github.io/React_StockMarket_App/" target="_blank">Test the app yourself</a> (hosted on GitHub Pages). Note that these are free developer APIs and the app may fail if the daily traffic limit is exceeded.</p>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:jeppehim@gmail.com" class="footer__link">jeppehim@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jarred-eppehimer/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Jeppehimer" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
