@@ -429,11 +429,9 @@ header {
 
 .portfolio {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-bottom: 2em;
-  /* max-width: 600px;
-  margin: 0 auto; */
+  margin: 0 20em;
 }
 
 .portfolio__item {
